@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Red+Hat+Mono:wght@600;700&display=swap" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Ayesh's Portfolio</title>
+</head>
+<body>
+    <section id="section1" class="section1">
+        <div><span>I</span> <span>am</span> <span>Ayesh</span> <span>Biswal</span><span id="cursor"></span></div>
+    </section>
+
+    <section id="section2" class="section2">
+        <h2>Education</h2>
+        <div class="edu-container">
+            <div class="school education">
+                <h2>Saraswati Sishu Vidya Mandir, Salipur <span class="badge bg-secondary">85%</span></h2>
+                <p>2016 - 2018</p>
+                <p>Passed with 85% marks.</p>
+                <div class="education-btns">
+                    <button type="button" class="btn btn-outline-dark">Visit website</button>
+                </div>
+            </div>
+            <div class="college education">
+                <h2>Salipur Jr. College <span class="badge bg-secondary">78%</span></h2>
+                <p>2018 - 2020</p>
+                <p>Passed with 78% marks.</p>
+                <div class="education-btns">
+                    <button type="button" class="btn btn-outline-dark">Visit website</button>
+                </div>
+            </div>
+            <div class="grad education">
+                <h2>Gandhi Institute For Technology <span class="badge bg-secondary">6.9</span></h2>
+                <p>2020 - 2024</p>
+                <p>Passed with CGPA 6.9</p>
+                <div class="education-btns">
+                    <button type="button" class="btn btn-outline-dark">Visit website</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="section3" class="section3">
+        <h2>
+            My Skills
+        </h2>
+        <div class="skills">
+            <h3>HTML</h3>
+            <span><img src="./imgs/star.svg"><img src="./imgs/star.svg"><img src="./imgs/star.svg"><img src="./imgs/star.svg"></span>
+            <h3>CSS</h3>
+            <span><img src="./imgs/star.svg"><img src="./imgs/star.svg"><img src="./imgs/star.svg"></span>
+            <h3>Javascript</h3>
+            <span><img src="./imgs/star.svg"><img src="./imgs/star.svg"></span>
+            <h3>Java</h3>
+            <span><img src="./imgs/star.svg"><img src="./imgs/star.svg"></span>
+            <h3>Ds & c</h3>
+            <span><img src="./imgs/star.svg"></span>
+        </div>
+    </section>
+
+    <section id="section4" class="section4">
+        <div class="section-hero"><h2>My Projects</h2></div>
+        <div class="projects">
+            <div class="row row-cols-1 row-cols-md-3 g-4" id="cards-container">
+                <div class="card" style="width: 18rem;">
+                    <div class="image"><img src="./imgs/bigbrain.png" class="card-img-top" alt="..."></div>
+                    <div class="card-body">
+                      <h5 class="card-title">Big Brain</h5>
+                      <p class="card-text">This is a quiz app created using React Js. It uses the Open Trivia Database to generate random questions of all categories. It encorporates material UI like design.</p>
+                      <a href="https://heyyayesh.github.io/bigbrain" target="blank" class="btn btn-primary">Live Preview</a>
+                    </div>
+                </div>
+                
+                <div class="card" style="width: 18rem;">
+                    <div class="image"><img src="./imgs/library.png" class="card-img-top" alt="..."></div>
+                    <div class="card-body">
+                      <h5 class="card-title">Library</h5>
+                      <p class="card-text">This is a virtual library to keep track of all the books that you have read or plan to read next. This uses the web storage api to store the data so it is very secure.</p>
+                      <a href="https://heyyayesh.github.io/library" target="blank" class="btn btn-primary">Live Preview</a>
+                    </div>
+                </div>
+                
+                <div class="card" style="width: 18rem;">
+                    <div class="image"><img src="./imgs/memeGenerator.png" class="card-img-top" alt="..."></div>
+                    <div class="card-body">
+                      <h5 class="card-title">Meme Generator</h5>
+                      <p class="card-text">This is a meme generator website that uses the imgflip api to generate random meme images from worls's top 100 memes at the current time. It lets you texts.</p>
+                      <a href="https://heyyayesh.github.io/meme-generator" target="blank" class="btn btn-primary">Live Preview</a>
+                    </div>
+                </div>
+
+                <div class="card" style="width: 18rem;">
+                    <div class="image"><img src="./imgs/adminDashboard.png" class="card-img-top" alt="..."></div>
+                    <div class="card-body">
+                      <h5 class="card-title">Admin Dashboard</h5>
+                      <p class="card-text">This is the design of a dahsboard that displays lots of information at once and lets the user control various aspects of the service provided by the said admin.</p>
+                      <a href="https://heyyayesh.github.io/library" target="blank" class="btn btn-primary">Live Preview</a>
+                    </div>
+                </div>
+
+                <div class="card" style="width: 18rem;">
+                    <div class="image"><img src="./imgs/calculator.png" class="card-img-top" alt="..."></div>
+                    <div class="card-body">
+                      <h5 class="card-title">Calculator</h5>
+                      <p class="card-text">This is a simple calculator. It does basic opetations like addition, subtraction, multiplication and division of whole as well as decimal numbers.</p>
+                      <a href="https://heyyayesh.github.io/calculator" target="blank" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                </div>
+                
+                <div class="card" style="width: 18rem;">
+                    <div class="image"><img src="./imgs/weatherApp.png" class="card-img-top" alt="..."></div>
+                    <div class="card-body">
+                      <h5 class="card-title">Weather App</h5>
+                      <p class="card-text">This is a simple weather app that can fetch and display weather info of over 100,000 cities around the world using the openweather api.</p>
+                      <a href="https://heyyayesh.github.io/weather-app" target="blank" class="btn btn-primary">Live Preview</a>
+                    </div>
+                </div>
+
+                <div class="card" style="width: 18rem;">
+                    <div class="image"><img src="./imgs/imageCarousel.png" class="card-img-top" alt="..."></div>
+                    <div class="card-body">
+                      <h5 class="card-title">Image Carousel</h5>
+                      <p class="card-text">This is a simple image carousel created purely of Html, Css and Javascript that slides 5 or so images at the interval of 3 seconds.</p>
+                      <a href="https://heyyayesh.github.io/image-carousel" class="btn btn-primary" target="blank">Live Preview</a>
+                    </div>
+                </div>
+        </div>
+    </section>
+
+    <section id="section5" class="section5">
+        <h2>Contact Me</h2>
+        <div class="contacts">
+            <div class="container">
+                <a href="https://www.gmail.com">
+                    <div class="email">
+                        <img src="./imgs/alternate_email_black_24dp(1).svg" alt="email">
+                        <p>Email</p>
+                    </div>
+                </a>
+
+                <a href="https://www.github.com/heyyayesh">
+                    <div class="github">
+                        <img src="./imgs/github.png" alt="github">
+                        <p>Github</p>
+                    </div>
+                </a>
+                
+                <a href="https://www.twitter.com/heyyayesh">
+                    <div class="twitter">
+                        <img src="./imgs/twitter.png" alt="twitter">
+                        <p>Twitter</p>
+                    </div>
+                </a>
+
+                <a href="https://www.instagram.com/heyyayesh">
+                    <div class="instagram">
+                        <img src="./imgs/icons8-instagram(2).svg" alt="instagram">
+                        <p>Instagram</p>
+                    </div>
+                </a>
+
+                <a href="https://www.linked.in/heyyayesh">
+                    <div class="linkedin">
+                        <img src="./imgs/linkedin.png" alt="linkedin">
+                        <p>LinkedIn</p>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <div class="btn-group" id="menu-btn">
+        <button type="button" class="btn btn-primary dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+        Menu
+        </button>
+        <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#section1">Home</a></li>
+            <li><a class="dropdown-item" href="#section2">Education</a></li>
+            <li><a class="dropdown-item" href="#section3">Skills</a></li>
+            <li><a class="dropdown-item" href="#section4">Projects</a></li>
+            <li><a class="dropdown-item" href="#section5">Contact</a></li>
+        </ul>
+    </div>
+
+    <nav>
+        <a href="#section1">Home</a>
+        <a href="#section2">Education</a>
+        <a href="#section3">Skills</a>
+        <a href="#section4">Projects</a>
+        <a href="#section5">Contact</a>
+    </nav>
+
+    <script>
+        const cursor = document.getElementById('cursor');
+        setInterval(() => cursor.classList.toggle('blinking'), 500);
+    </script>
+</body>
+</html>
